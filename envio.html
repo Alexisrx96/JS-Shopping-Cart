@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="css/template.css">
+    <link rel="stylesheet" href="css/envio.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title id="tab_display">Típicos de Oro</title>
+</head>
+<body>
+    <header class="header">
+            <img class="header__logo" src="img/food-delivery.png" alt="logo">
+            <div class="branding">
+                <h1 class="branding__tittle">Típicos de Oro</h1>
+            
+            </div>
+    </header>
+    
+  <nav class="navbar">
+    <ul class="navbar-nav">
+      <li class="logo">
+        <a href="#" class="nav-link">
+          <span class="link-text logo-text">Bienvenido</span>
+          <img src="img/double-arrow.svg"></img>
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a href="cart.html" class="nav-link shopping_cart">   
+          <img src="img/shopping_cart.png"></img>
+            <span class="link-text">Carrito</span>
+        </a>
+      </li>
+
+      <li class="nav-item" id="toggle">
+        <a class="nav-link">
+            <img class="nav-arrow" src="img/arrow-head.svg"></img>
+          <span class="link-text">Categorías</span>
+        </a>
+          <ul class="dropdown-content">
+
+            <li class="nav-item">
+              <a href="#ATOLES" class="nav-link">
+                  <img src="img/atole.png"></img>
+                  <span class="link-text">Atoles</span>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#TAMALES" class="nav-link">
+                  <img src="img/tamale.png"></img>
+                  <span class="link-text">Tamales</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#ANTOJITOS" class="nav-link">
+                  <img src="img/cake.png"></img>
+                  <span class="link-text">Antojitos</span>
+              </a>
+            </li>
+          </ul>
+      </li>
+      
+      <li class="nav-item">
+        <a href="login.html" class="nav-link">   
+          <img src="img/login.png"></img>
+            <span class="link-text">Iniciar Sesión</span>
+        </a>
+      </li>
+
+    </ul>
+  </nav>
+    
+      <main>
+        <div class="container">
+          <form action="" method="">
+              <h3>Datos de Envío</h3>
+              <input class="w100" type="text" placeholder="Nombre" reqired autocomplete='off' />
+              <input class="w100" type="text" placeholder="Dirección" reqired autocomplete='off' />
+              <input type="tel" placeholder="Telefono" reqired />
+              <input class="w100" type="text" placeholder="Metodo de Pago" reqired autocomplete='off' />
+              <button class="form-btn dx" type="submit">Enviar</button>
+          </form>
+        </div>  
+      </main>
+
+        <footer class="footer-container">
+            <ul class="contact"> 
+                <li class="contact-element">
+                    <a class="display-contact" href="#">
+                        <span class="display-contact__icon display-contact__icon--whatsapp"></span>
+                        <span class="display-contact__text">Whatsapp: (503) 0000-0000</span>
+                    </a>
+                </li>
+                <li class="contact-element">
+                    <a class="display-contact" href="#">
+                        <span class="display-contact__icon display-contact__icon--instagram"></span>
+                        <span class="display-contact__text">Instagram: @user</span>
+                    </a>
+                </li>
+                <li class="contact-element">
+                    <a class="display-contact" href="#">
+                        <span class="display-contact__icon display-contact__icon--facebook"></span>
+                        <span class="display-contact__text">Facebook: @user</span>
+                    </a>
+                </li>
+            </ul>  
+        </footer>
+        <script src="js/toggle.js"></script>
+        <script src="js/cart.js"></script>
+  </body>
+  </html>

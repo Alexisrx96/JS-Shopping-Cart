@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="css/template.css">
+    <link rel="stylesheet" href="css/cart.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title id="tab_display">Típicos de Oro</title>
+</head>
+<body>
+    <header class="header">
+            <img class="header__logo" src="img/food-delivery.png" alt="logo">
+            <div class="branding">
+                <h1 class="branding__tittle">Típicos de Oro</h1>
+            
+            </div>
+    </header>
+    
+  <nav class="navbar">
+      <ul class="navbar-nav">
+        <li class="logo">
+          <a href="#" class="nav-link">
+            <span class="link-text logo-text">Bienvenido</span>
+            <img src="img/double-arrow.svg"></img>
+          </a>
+        </li>
+  
+        <li class="nav-item">
+          <a href="cart.html" class="nav-link shopping_cart">   
+            <img src="img/shopping_cart.png"></img>
+              <span class="link-text">Carrito</span>
+          </a>
+        </li>
+        
+        <li class="nav-item">
+          <a href="login.html" class="nav-link">   
+            <img src="img/login.png"></img>
+              <span class="link-text">Iniciar Sesión</span>
+          </a>
+        </li>
+  
+        <li class="nav-item" id="toggle">
+          <a class="nav-link">
+              <img class="nav-arrow" src="img/arrow-head.svg"></img>
+            <span class="link-text">Categorías</span>
+          </a>
+            <ul class="dropdown-content">
+  
+              <li class="nav-item">
+                <a href="Index.html#ATOLES" class="nav-link">
+                    <img src="img/atole.png"></img>
+                    <span class="link-text">Atoles</span>
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a href="Index.html#TAMALES" class="nav-link">
+                    <img src="img/tamale.png"></img>
+                    <span class="link-text">Tamales</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="Index.html#ANTOJITOS" class="nav-link">
+                    <img src="img/cake.png"></img>
+                    <span class="link-text">Antojitos</span>
+                </a>
+              </li>
+            </ul>
+        </li>
+  
+      </ul>
+    </nav>
+
+      <main>
+        <div>
+          <article class="product none" id="atol1">
+            <div class="content__group content__group--name">
+              <span class="label">Producto:</span>
+              <span class="product__name" id="atol1_name"></span>
+            </div>
+            <div class="content__group content__group--col">
+              <div class="content_goup">
+                <span class="label">Precio: $</span>
+                <span class="product__price" id="atol1_price"></span>
+              </div>
+              <div class="content_group">
+                <div class="label">Cantidad:
+                  <span id="atol1_quantity"></span></div>
+              </div>
+              <div class="content_group">
+                <span class="label">Total: $</span>
+                <span class="product__description" id="atol1_total"></span>
+              </div>
+              <div class="content_group">
+                <input type="button" value="Eliminar del carrito" id="atol1_clear">
+              </div>
+            </div>
+          </article>
+  
+          <article class="product none" id="atol2">
+            <div class="content__group content__group--name">
+              <span class="label">Producto:</span>
+              <span class="product__name" id="atol2_name"></span>
+            </div>
+            <div class="content__group content__group--col">
+              <div class="content_goup">
+                <span class="label">Precio: $</span>
+                <span class="product__price" id="atol2_price"></span>
+              </div>
+              <div class="content_group">
+                <div class="label">Cantidad:
+                  <span id="atol2_quantity"></span></div>
+              </div>
+              <div class="content_group">
+                <span class="label">Total: $</span>
+                <span class="product__description" id="atol2_total"></span>
+              </div>
+              <div class="content_group">
+                <input type="button" value="Eliminar del carrito" id="atol2_clear">
+              </div>
+            </div>
+          </article>
+          
+          <article class="product none" id="atol3">
+            <div class="content__group content__group--name">
+              <span class="label">Producto:</span>
+              <span class="product__name" id="atol3_name"></span>
+            </div>
+            <div class="content__group content__group--col">
+              <div class="content_goup">
+                <span class="label">Precio: $</span>
+                <span class="product__price" id="atol3_price"></span>
+              </div>
+              <div class="content_group">
+                <div class="label">Cantidad:
+                  <span id="atol3_quantity"></span></div>
+              </div>
+              <div class="content_group">
+                <span class="label">Total: $</span>
+                <span class="product__description" id="atol3_total"></span>
+              </div>
+              <div class="content_group">
+                <input type="button" value="Eliminar del carrito" id="atol3_clear">
+              </div>
+            </div>
+          </article>
+          
+          <article class="product none" id="atol4">
+            <div class="content__group content__group--name">
+              <span class="label">Producto:</span>
+              <span class="product__name" id="atol4_name"></span>
+            </div>
+            <div class="content__group content__group--col">
+              <div class="content_goup">
+                <span class="label">Precio: $</span>
+                <span class="product__price" id="atol4_price"></span>
+              </div>
+              <div class="content_group">
+                <div class="label">Cantidad:
+                  <span id="atol4_quantity"></span></div>
+              </div>
+              <div class="content_group">
+                <span class="label">Total: $</span>
+                <span class="product__description" id="atol4_total"></span>
+              </div>
+              <div class="content_group">
+                <input type="button" value="Eliminar del carrito" id="atol4_clear">
+              </div>
+            </div>
+          </article>
+          
+          <article class="product none" id="atol5">
+            <div class="content__group content__group--name">
+              <span class="label">Producto:</span>
+              <span class="product__name" id="atol5_name"></span>
+            </div>
+            <div class="content__group content__group--col">
+              <div class="content_goup">
+                <span class="label">Precio: $</span>
+                <span class="product__price" id="atol5_price"></span>
+              </div>
+              <div class="content_group">
+                <div class="label">Cantidad:
+                  <span id="atol5_quantity"></span></div>
+              </div>
+              <div class="content_group">
+                <span class="label">Total: $</span>
+                <span class="product__description" id="atol5_total"></span>
+              </div>
+              <div class="content_group">
+                <input type="button" value="Eliminar del carrito" id="atol5_clear">
+              </div>
+            </div>
+          </article>
+          
+          <article class="product none" id="atol6">
+            <div class="content__group content__group--name">
+              <span class="label">Producto:</span>
+              <span class="product__name" id="atol6_name"></span>
+            </div>
+            <div class="content__group content__group--col">
+              <div class="content_goup">
+                <span class="label">Precio: $</span>
+                <span class="product__price" id="atol6_price"></span>
+              </div>
+              <div class="content_group">
+                <div class="label">Cantidad:
+                  <span id="atol6_quantity"></span></div>
+              </div>
+              <div class="content_group">
+                <span class="label">Total: $</span>
+                <span class="product__description" id="atol6_total"></span>
+              </div>
+              <div class="content_group">
+                <input type="button" value="Eliminar del carrito" id="atol6_clear">
+              </div>
+            </div>
+          </article>
+          
+          <article class="product none" id="tamal1">
+            <div class="content__group content__group--name">
+              <span class="label">Producto:</span>
+              <span class="product__name" id="tamal1_name"></span>
+            </div>
+            <div class="content__group content__group--col">
+              <div class="content_goup">
+                <span class="label">Precio: $</span>
+                <span class="product__price" id="tamal1_price"></span>
+              </div>
+              <div class="content_group">
+                <div class="label">Cantidad:
+                  <span id="tamal1_quantity"></span></div>
+              </div>
+              <div class="content_group">
+                <span class="label">Total: $</span>
+                <span class="product__description" id="tamal1_total"></span>
+              </div>
+              <div class="content_group">
+                <input type="button" value="Eliminar del carrito" id="tamal1_clear">
+              </div>
+            </div>
+          </article>
+          
+          <article class="product none" id="tamal2">
+            <div class="content__group content__group--name">
+              <span class="label">Producto:</span>
+              <span class="product__name" id="tamal2_name"></span>
+            </div>
+            <div class="content__group content__group--col">
+              <div class="content_goup">
+                <span class="label">Precio: $</span>
+                <span class="product__price" id="tamal2_price"></span>
+              </div>
+              <div class="content_group">
+                <div class="label">Cantidad:
+                  <span id="tamal2_quantity"></span></div>
+              </div>
+              <div class="content_group">
+                <span class="label">Total: $</span>
+                <span class="product__description" id="tamal2_total"></span>
+              </div>
+              <div class="content_group">
+                <input type="button" value="Eliminar del carrito" id="tamal2_clear">
+              </div>
+            </div>
+          </article>
+          
+          <article class="product none" id="tamal3">
+            <div class="content__group content__group--name">
+              <span class="label">Producto:</span>
+              <span class="product__name" id="tamal3_name"></span>
+            </div>
+            <div class="content__group content__group--col">
+              <div class="content_goup">
+                <span class="label">Precio: $</span>
+                <span class="product__price" id="tamal3_price"></span>
+              </div>
+              <div class="content_group">
+                <div class="label">Cantidad:
+                  <span id="tamal3_quantity"></span></div>
+              </div>
+              <div class="content_group">
+                <span class="label">Total: $</span>
+                <span class="product__description" id="tamal3_total"></span>
+              </div>
+              <div class="content_group">
+                <input type="button" value="Eliminar del carrito" id="tamal3_clear">
+              </div>
+            </div>
+          </article>
+          
+          <article class="product none" id="tamal4">
+            <div class="content__group content__group--name">
+              <span class="label">Producto:</span>
+              <span class="product__name" id="tamal4_name"></span>
+            </div>
+            <div class="content__group content__group--col">
+              <div class="content_goup">
+                <span class="label">Precio: $</span>
+                <span class="product__price" id="tamal4_price"></span>
+              </div>
+              <div class="content_group">
+                <div class="label">Cantidad:
+                  <span id="tamal4_quantity"></span></div>
+              </div>
+              <div class="content_group">
+                <span class="label">Total: $</span>
+                <span class="product__description" id="tamal4_total"></span>
+              </div>
+              <div class="content_group">
+                <input type="button" value="Eliminar del carrito" id="tamal4_clear">
+              </div>
+            </div>
+          </article>
+  
+          
+          <article class="product none" id="antojo1">
+            <div class="content__group content__group--name">
+              <span class="label">Producto:</span>
+              <span class="product__name" id="antojo1_name"></span>
+            </div>
+            <div class="content__group content__group--col">
+              <div class="content_goup">
+                <span class="label">Precio: $</span>
+                <span class="product__price" id="antojo1_price"></span>
+              </div>
+              <div class="content_group">
+                <div class="label">Cantidad:
+                  <span id="antojo1_quantity"></span></div>
+              </div>
+              <div class="content_group">
+                <span class="label">Total: $</span>
+                <span class="product__description" id="antojo1_total"></span>
+              </div>
+              <div class="content_group">
+                <input type="button" value="Eliminar del carrito" id="antojo1_clear">
+              </div>
+            </div>
+          </article>
+          
+          <article class="product none" id="antojo2">
+            <div class="content__group content__group--name">
+              <span class="label">Producto:</span>
+              <span class="product__name" id="antojo2_name"></span>
+            </div>
+            <div class="content__group content__group--col">
+              <div class="content_goup">
+                <span class="label">Precio: $</span>
+                <span class="product__price" id="antojo2_price"></span>
+              </div>
+              <div class="content_group">
+                <div class="label">Cantidad:
+                  <span id="antojo2_quantity"></span></div>
+              </div>
+              <div class="content_group">
+                <span class="label">Total: $</span>
+                <span class="product__description" id="antojo2_total"></span>
+              </div>
+              <div class="content_group">
+                <input type="button" value="Eliminar del carrito" id="antojo2_clear">
+              </div>
+            </div>
+          </article>
+          
+          <article class="product none" id="antojo3">
+            <div class="content__group content__group--name">
+              <span class="label">Producto:</span>
+              <span class="product__name" id="antojo3_name"></span>
+            </div>
+            <div class="content__group content__group--col">
+              <div class="content_goup">
+                <span class="label">Precio: $</span>
+                <span class="product__price" id="antojo3_price"></span>
+              </div>
+              <div class="content_group">
+                <div class="label">Cantidad:
+                  <span id="antojo3_quantity"></span></div>
+              </div>
+              <div class="content_group">
+                <span class="label">Total: $</span>
+                <span class="product__description" id="antojo3_total"></span>
+              </div>
+              <div class="content_group">
+                <input type="button" value="Eliminar del carrito" id="antojo3_clear">
+              </div>
+            </div>
+          </article>
+          
+          <article class="product none" id="antojo4">
+            <div class="content__group content__group--name">
+              <span class="label">Producto:</span>
+              <span class="product__name" id="antojo4_name"></span>
+            </div>
+            <div class="content__group content__group--col">
+              <div class="content_goup">
+                <span class="label">Precio: $</span>
+                <span class="product__price" id="antojo4_price"></span>
+              </div>
+              <div class="content_group">
+                <div class="label">Cantidad:
+                  <span id="antojo4_quantity"></span></div>
+              </div>
+              <div class="content_group">
+                <span class="label">Total: $</span>
+                <span class="product__description" id="antojo4_total"></span>
+              </div>
+              <div class="content_group">
+                <input type="button" value="Eliminar del carrito" id="antojo4_clear">
+              </div>
+            </div>
+          </article>
+          
+          <article class="product none" id="antojo5">
+            <div class="content__group content__group--name">
+              <span class="label">Producto:</span>
+              <span class="product__name" id="antojo5_name"></span>
+            </div>
+            <div class="content__group content__group--col">
+              <div class="content_goup">
+                <span class="label">Precio: $</span>
+                <span class="product__price" id="antojo5_price"></span>
+              </div>
+              <div class="content_group">
+                <div class="label">Cantidad:
+                  <span id="antojo5_quantity"></span></div>
+              </div>
+              <div class="content_group">
+                <span class="label">Total: $</span>
+                <span class="product__description" id="antojo5_total"></span>
+              </div>
+              <div class="content_group">
+                <input type="button" value="Eliminar del carrito" id="antojo5_clear">
+              </div>
+            </div>
+          </article>
+          
+          <article class="product none" id="antojo6">
+            <div class="content__group content__group--name">
+              <span class="label">Producto:</span>
+              <span class="product__name" id="antojo6_name"></span>
+            </div>
+            <div class="content__group content__group--col">
+              <div class="content_goup">
+                <span class="label">Precio: $</span>
+                <span class="product__price" id="antojo6_price"></span>
+              </div>
+              <div class="content_group">
+                <div class="label">Cantidad:
+                  <span id="antojo6_quantity"></span></div>
+              </div>
+              <div class="content_group">
+                <span class="label">Total: $</span>
+                <span class="product__description" id="antojo6_total"></span>
+              </div>
+              <div class="content_group">
+                <input type="button" value="Eliminar del carrito" id="antojo6_clear">
+              </div>
+            </div>
+          </article>
+        </div>
+        
+        <a id="acept" class="enlace" href="#">Hacer pedido</a> 
+      </main>
+      
+      <footer class="footer-container">
+          <ul class="contact"> 
+              <li class="contact-element">
+                  <a class="display-contact" href="#">
+                      <span class="display-contact__icon display-contact__icon--whatsapp"></span>
+                      <span class="display-contact__text">Whatsapp: (503) 0000-0000</span>
+                  </a>
+              </li>
+              <li class="contact-element">
+                  <a class="display-contact" href="#">
+                      <span class="display-contact__icon display-contact__icon--instagram"></span>
+                      <span class="display-contact__text">Instagram: @user</span>
+                  </a>
+              </li>
+              <li class="contact-element">
+                  <a class="display-contact" href="#">
+                      <span class="display-contact__icon display-contact__icon--facebook"></span>
+                      <span class="display-contact__text">Facebook: @user</span>
+                  </a>
+              </li>
+          </ul>  
+      </footer>
+      <script src="js/toggle.js"></script>
+      <script src="js/cart.js"></script>
+</body>
+</html>
+

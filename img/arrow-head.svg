@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid meet" viewBox="0 0 640 640">
+ <defs>
+ <path 
+ d="M77 430
+ C47 430 32 393 53 372
+ C107 319 209 217 263 164
+ C294 132 345 132 377 164
+ C430 217 533 319 587 372
+ C608 393 593 430 563 430
+ C449 430 190 430 77 430Z"
+  id="b10BNtBiWW"></path></defs><use xlink:href="#b10BNtBiWW" opacity="1" fill="#743b79" fill-opacity="1"></use></svg>

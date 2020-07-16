@@ -1,0 +1,90 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+.container{
+    margin-top: 2rem ;
+    margin-left: 50px;
+    min-height: 275px;
+    background-color: #ffa931;
+    border-radius: 1rem 1rem 0 0;
+    
+}
+h2{
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+form{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+.input-name{
+    width: 50%;
+}
+.input-text{
+    width: 70%;
+    
+}
+.input-block{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+.input-col{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.name{
+    width: 92%;
+    margin-left: 4%;
+}
+.text{
+    width: 96%;
+    min-width: 96%;
+    max-width: 96%;
+    margin-left: 2%;
+}
+input[type=submit] {
+    margin-top: 130px;
+    padding:0.5rem 0;
+    margin-left: 40px;
+    width: 20%;
+    border: none;
+    border-top: 1px solid gray;
+    cursor: pointer;
+    background-color: #aaaaaa;
+    border-radius: 8px;
+    position: absolute;
+
+}
+input[type=submit]:hover {
+    background-color: #868686;
+}
+@media (max-width: 800px) {
+    .input-col{
+        width: 100%;
+    }
+}
+@media (max-width: 600px){
+    .input-name{
+        width: 100%;
+        margin-top: 1rem;
+    }
+    .name{
+        width: 96%;
+        min-width: 96%;
+        max-width: 96%;
+        margin-left: 2%;
+    }
+    body{
+        align-items: flex-start;
+    }
+}

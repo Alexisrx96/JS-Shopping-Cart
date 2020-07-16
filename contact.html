@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/template.css">
+    <link rel="stylesheet" type="text/css" href="css/util.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <title>TIPICOS DE ORO</title>
+</head>
+<body>
+    <header class="header">
+            <img class="header__logo" src="img/food-delivery.png" alt="logo">
+            <div class="branding">
+                <h1 class="branding__tittle">Típicos de Oro</h1>
+          
+            </div>
+    </header>
+
+    <nav class="navbar">
+      <ul class="navbar-nav">
+        <li class="logo">
+          <a href="#" class="nav-link">
+            <span class="link-text logo-text">Bienvenido</span>
+            <img src="img/double-arrow.svg"></img>
+          </a>
+        </li>
+  
+        <li class="nav-item">
+          <a href="cart.html" class="nav-link shopping_cart">   
+            <img src="img/shopping_cart.png"></img>
+              <span class="link-text">Carrito</span>
+          </a>
+        </li>
+  
+        <li class="nav-item" id="toggle">
+          <a class="nav-link">
+              <img class="nav-arrow" src="img/arrow-head.svg"></img>
+            <span class="link-text">Categorías</span>
+          </a>
+            <ul class="dropdown-content">
+  
+              <li class="nav-item">
+                <a href="Index.html#ATOLES" class="nav-link">
+                    <img src="img/atole.png"></img>
+                    <span class="link-text">Atoles</span>
+                </a>
+              </li>
+  
+              <li class="nav-item">
+                <a href="Index.html#TAMALES" class="nav-link">
+                    <img src="img/tamale.png"></img>
+                    <span class="link-text">Tamales</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="Index.html#ANTOJITOS" class="nav-link">
+                    <img src="img/cake.png"></img>
+                    <span class="link-text">Antojitos</span>
+                </a>
+              </li>
+            </ul>
+        </li>
+        
+        <li class="nav-item">
+          <a href="login.html" class="nav-link">   
+            <img src="img/login.png"></img>
+              <span class="link-text">Iniciar Sesión</span>
+          </a>
+        </li>
+  
+      </ul>
+    </nav>
+      
+      <main>
+          
+        <div class="wrap-contact100">
+          <span class="contact100-form-title">Información de usuario</span>
+            <form class="contact100-form validate-form" action="">
+              <span  class="label-input100">Nombre: </span><span class="input100" id="nombre">Nombre del usuario</span>
+              
+                <div class="wrap-contact100-form-btn">
+                  <div class="contact100-form-bgbtn blue"></div>
+                  <button class="contact100-form-btn">
+                    Editar
+                  </button>
+                </div>
+                <div class="wrap-contact100-form-btn">
+                  <div class="contact100-form-bgbtn red"></div>
+                  <button class="contact100-form-btn">
+                    Cancelar
+                  </button>
+                </div>
+              
+            </form>
+            <form class="contact100-form validate-form" action="">
+              <span class="label-input100">Email: </span><span class="input100" id="email">EmailDel@usuario.com</span>
+           
+                <div class="wrap-contact100-form-btn">
+                  <div class="contact100-form-bgbtn blue"></div>
+                  <button class="contact100-form-btn">
+                    Editar
+                  </button>
+                </div>
+                <div class="wrap-contact100-form-btn">
+                  <div class="contact100-form-bgbtn red"></div>
+                  <button class="contact100-form-btn">
+                    Cancelar
+                  </button>
+                </div>
+              
+            </form>
+            <span class="contact100-form-title">Números de teléfono</span>
+            <form class="contact100-form validate-form">
+              <span  class="input100" for="delete">0000-0000</span>
+              <div class="wrap-contact100-form-btn">
+                <div class="contact100-form-bgbtn red"></div>
+                <button class="contact100-form-btn">
+                  Eliminar
+                </button>
+              </div>
+            </form>
+            <form class="contact100-form validate-form">
+              <input  class="input100" type="text" placeholder="telefono" required>
+              <div class="wrap-contact100-form-btn">
+                <div class="contact100-form-bgbtn"></div>
+                <button class="contact100-form-btn">
+                  Agregar
+                </button>
+              </div>
+            </form>
+            <span class="contact100-form-title">Direcciones</span>
+            <form class="contact100-form validate-form">
+              <span class="input100" for="delete">Residencial tal calle x casa n</span>
+              <div class="wrap-contact100-form-btn">
+                <div class="contact100-form-bgbtn red"></div>
+                <button class="contact100-form-btn">
+                  Eliminar
+                </button>
+              </div>
+            </form>
+            <form class="contact100-form validate-form">
+              <input class="input100" type="text" placeholder="telefono" required>
+                <div class="wrap-contact100-form-btn">
+                  <div class="contact100-form-bgbtn"></div>
+                  <button class="contact100-form-btn">
+                    Agregar
+                  </button>
+                </div>
+            </form>
+        </div>
+        
+	<div class="container-contact100">
+
+		<div class="wrap-contact100" style="display: none;">
+			<form class="contact100-form validate-form">
+				<span class="contact100-form-title">
+					Contact Us
+				</span>
+
+				<div class="wrap-input100 validate-input" data-validate="Name is required">
+					<span class="label-input100">Name</span>
+					<input class="input100" type="text" name="name" placeholder="Name...">
+					<span class="focus-input100"></span>
+				</div>
+
+				<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+					<span class="label-input100">Email</span>
+					<input class="input100" type="text" name="email" placeholder="Email addess...">
+					<span class="focus-input100"></span>
+				</div>
+
+				<div class="wrap-input100">
+					<span class="label-input100">Phone</span>
+					<input class="input100" type="text" name="phone" placeholder="Phone Number...">
+					<span class="focus-input100"></span>
+				</div>
+
+				<div class="wrap-input100 validate-input" data-validate = "Message is required">
+					<span class="label-input100">Message</span>
+					<textarea class="input100" name="message" placeholder="Questions/Comments..."></textarea>
+					<span class="focus-input100"></span>
+				</div>
+
+				<div class="container-contact100-form-btn">
+					<div class="wrap-contact100-form-btn">
+						<div class="contact100-form-bgbtn"></div>
+						<button class="contact100-form-btn">
+							Send
+						</button>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+      </main>
+    
+    <footer class="footer-container">
+        <ul class="contact"> 
+            <li class="contact-element">
+                <a class="display-contact" href="#">
+                    <span class="display-contact__icon display-contact__icon--whatsapp"></span>
+                    <span class="display-contact__text">Whatsapp: (503) 0000-0000</span>
+                </a>
+            </li>
+
+            <li class="contact-element">
+                <a class="display-contact" href="#">
+                    <span class="display-contact__icon display-contact__icon--instagram"></span>
+                    <span class="display-contact__text">Instagram: @user</span>
+                </a>
+            </li>
+
+            <li class="contact-element">
+                <a class="display-contact" href="#">
+                    <span class="display-contact__icon display-contact__icon--facebook"></span>
+                    <span class="display-contact__text">Facebook: @user</span>
+                </a>
+            </li>
+        </ul>  
+    </footer>
+    <script src="js/toggle.js"></script>
+</body>
+</html>

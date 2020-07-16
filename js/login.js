@@ -1,0 +1,12 @@
+document.getElementsByClassName("log-in")[0].addEventListener("click",function(){
+	document.getElementsByClassName("signIn")[0].classList.add("active-dx");
+	document.getElementsByClassName("signUp")[0].classList.add("inactive-sx");
+	document.getElementsByClassName("signUp")[0].classList.remove("active-sx");
+	document.getElementsByClassName("signIn")[0].classList.remove("inactive-dx");
+});
+document.getElementsByClassName("back")[0].addEventListener("click",function(){
+	document.getElementsByClassName("signUp")[0].classList.add("active-sx");
+	document.getElementsByClassName("signIn")[0].classList.add("inactive-dx");
+	document.getElementsByClassName("signIn")[0].classList.remove("active-dx");
+	document.getElementsByClassName("signUp")[0].classList.remove("inactive-sx");
+});

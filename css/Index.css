@@ -1,0 +1,187 @@
+:root{
+    --main: #17706e;
+    --second: rgb(91, 76, 131);
+	--price: #2c1707;
+	/**/
+    --primary-white: white;
+}
+.letr ,.letras {
+	color: var(--main);
+	padding-top: 2%;
+	text-align: center;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.letr{
+	color: var(--price);
+}
+
+p{
+	color: var(--price);
+	font-weight: bold;
+	font-size: 104%;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.tamaño{
+	background:#fee2b3;
+	font-size:0.9rem;
+	height:505px;
+	width:100%;
+	   margin:0px;
+	   border: solid white 5px;
+	   
+}
+
+.im{
+	
+	padding: 3px;
+	 margin: 5px;	
+	 border-style :double;
+	 border-color: var(--main);
+	 border-radius: 2rem;
+	 width:300px;
+	 height:320px;
+}
+
+
+
+
+div{
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+.imagen{
+	width:90%;
+	 border-radius: 2%;
+	height:235px;
+	padding: 5px;
+	 margin: 5px; 
+	 border: 2px solid white;
+
+  	
+}
+
+
+
+button{
+
+border:0;
+width:40%;
+height:25%;
+text-align:center;
+background-color: #a51d25;
+font-size:11px;
+font-weight:bold;
+margin-left: 10%;
+    margin-top: -1%;
+    padding: 6px;
+cursor: pointer;
+color: #ffffff;
+border-radius: 5px;
+}
+ button:hover{
+	background-color: #7a1b0c; 
+ }
+ 
+
+
+  
+
+
+
+
+
+/*Telefono*/
+@media (min-width:320px) and (max-width: 767px){
+
+
+ 
+.letr ,.letras {
+	color: #F2F135;
+padding-top: 2%;
+	 text-align: center;
+
+
+}
+
+.letr{
+	color: white;
+}
+
+.letra{
+	font-size:20px
+}
+
+p{
+	color: #F2F135;
+	  font-weight: bold;
+	  font-size: 80%;
+
+}
+
+.tamaño{
+	background:var(--primary-purple);
+	font-size:0.9rem;
+	height:290px;
+	width:98%;
+	float:center;
+   margin:1%;
+   position:relative; 
+
+
+}
+
+.im{
+	
+	padding: 3px;
+	 margin: 3px; 
+	 border-style :double;
+	 border-color: white;
+	 width:60%;
+	height:225px;
+}
+
+
+
+div{
+  display: flex;
+  justify-content: center;
+}
+
+
+article ,.tamañ{
+	font-size: 83%;
+}
+
+.imagen{
+	width:85%;
+	 border-radius: 2%;
+	height:150px;
+	padding: 5px;
+	 margin: 5px; 
+	 border: 2px solid var(--main);
+}
+
+
+
+button{
+border:0;
+width:50%;
+height:25%;
+text-align:center;
+background-color:#00a1ab;
+font-size:11px;
+font-weight:bold;
+padding: 6px;
+}
+article a{
+ 	color: #ffffff;
+ 	font-size: 90%;
+}
+
+}
