@@ -95,5 +95,5 @@ function addJson(id,name,unitPrice,total,quantity,image) {
         localStorage.setItem(`${id}`,JSON.stringify(jsonTicket));
     alert(`Tienes ${jsonTicket.quantity} unidades de ${jsonTicket.name} en el carrito`);
     localStorage.removeItem('item');
-    window.open('../Index.html', '_self');
+    window.open('../index.html', '_self');
 }
